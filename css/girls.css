@@ -1,0 +1,138 @@
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 5%; */
+
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 6%;
+    width: 50%;
+}
+
+.placeholder{
+    object-fit: contain;
+}
+
+.article-title{
+    /* font-family: "ballamer", sans-serif; */
+    margin: 0;
+    text-align: center;
+
+}
+
+.bylines{
+    /* font-family: "ballamer", sans-serif; */
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ballamer";
+    src: url("fonts/ballmerarchityperegular-webfont.woff") format("woff");
+}
+
+#blog {
+    font-family: "ballamer", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 0 0 0;
+    font-size: 60px ;
+    margin: 0;
+}
+
+.blue{
+    background-color: #65dbff;
+    height: auto;
+    margin: 0;
+}
+
+
+.pink{
+    background-color: #F2419A;
+    height: auto;
+    justify-content: space-around;
+
+}
+
+.brown{
+    background-color: #F4DFB6;
+    height: auto;
+    justify-content: space-around;
+
+}
+
+.white{
+    background-color: white;
+    height: auto;
+    justify-content: space-around;
+
+}
+
+/* .blue-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0 5% 0;
+
+}
+
+.pink-images-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0 5% 0;
+}
+
+.pink-images-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0 5% 0;
+
+} */
+
+
+.placeholder{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color:#F2419A;
+    font-family: "ballamer";
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 20px; 
+    font-weight: 600;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+

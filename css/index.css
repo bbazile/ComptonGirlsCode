@@ -1,16 +1,41 @@
-/* body{
-    background-color: #F2419A;
-} */
-        
-/* .{
-    text-decoration:none ;
 
-} */
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ballamer";
+    src: url("fonts/ballmerarchityperegular-webfont.woff") format("woff");
+}
+
+.pink-border{
+    border-style: solid;
+    border-color: #F2419A;
+    border-width: 20px;
+    
+}
+
+.brown{
+    background-color: #F4DFB6;
+    height: 100%;
+    
+}
+
+.blue{
+    background-color: #6CCFF6;
+
+}
+
+.blue-content{
+    background-color: #6CCFF6;
+    padding: 0;
+}
+
 .navbar{
     background-color:#F2419A;
-    font-family: Architecture Ballmer;
-    padding-right:15px;
-    padding-left:15px;
+    font-family: "ballamer", sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .navdiv{
     display: flex;
@@ -25,11 +50,157 @@
 li{
     list-style: none;
     display: inline-block;
+    font-family: "ballamer", sans-serif;
 }
 li a{
     color: black;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
+
+}
+ul {
+    font-family: "ballamer", sans-serif;
+    text-align: left; 
+}
+.center {
+    display: block;
+    Margin-left: auto;
+    Margin-right: auto;
+    width: 50%;
+}
+.topleft {
+    position: absolute;
+    Left: 5%;
+    width: 20%;
+    height: 20%;
+}
+.bigpicture{
+    width: 100%;
+    height: 40%;
+}
+.menu-font{
+    font-family: "ballamer", sans-serif;
 }
 
+.brown-content{
+    padding: 10% 0 0 10%;
+
+}
+
+.about-us-p{
+    font-family: "Montserrat", sans-serif;
+    width: 40%;
+    margin: 0;
+    padding: 5% 0 20% 0;
+    letter-spacing: 10%;
+    line-height: 210%;
+    word-spacing: 150%;
+    white-space: 100%;
+    
+}
+
+.class-picture{
+    position: absolute;
+    right: 15%;
+    padding: 10% 0 0 0;
+    rotate: 10deg;
+
+}
+
+.featured-articles-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10% 0 10%;
+
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 5% 0;
+}
+
+
+.article-title{
+    margin: 0;
+    text-align: center;
+
+}
+
+.bylines{
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ballamer";
+    src: url("fonts/ballmerarchityperegular-webfont.woff") format("woff");
+}
+
+.blue{
+    background-color: #6CCFF6;
+    height: auto;
+    margin: 0;
+}
+
+.button{
+    background-color: #F2419A; /* Green */
+    border: none;
+    padding: 12px 64px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 45% 10% 45%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.button-text{
+    font-size: 22px;
+    color: black;
+    font-family: "ballamer", sans-serif;
+    white-space: nowrap;
+}
+  
+.button:hover {
+    background-color: #F4DFB6;
+    color: white;
+}
+
+.white{
+    position: relative;
+}
+
+.footer-title{
+    font-family: "ballamer", sans-serif;
+    text-align: center;
+    font-size: 98px;
+}
+
+.footer-img{
+    position: absolute;
+    justify-content: center;
+}
+
+footer{
+    font-family: "Montserrat";
+    display: flex;
+    text-align: end;
+    bottom: 100%;
+    justify-content: space-between;
+    padding: 0 15%;
+}
