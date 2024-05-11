@@ -1,36 +1,20 @@
 
-.grid{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* padding: 5%; */
-
-}
-
 .grid-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
     padding: 5% 6%;
-    width: 50%;
 }
 
 .placeholder{
     object-fit: contain;
 }
 
-.article-title{
-    /* font-family: "ballamer", sans-serif; */
-    margin: 0;
-    text-align: center;
-
-}
-
-.bylines{
-    /* font-family: "ballamer", sans-serif; */
+.article-title, .bylines {
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     text-align: center;
 }
+
 
 body{
     margin: 0;
@@ -41,67 +25,31 @@ body{
     src: url("fonts/ballmerarchityperegular-webfont.woff") format("woff");
 }
 
-#blog {
-    font-family: "ballamer", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 5% 0 0 0;
-    font-size: 60px ;
+.blue, .brown, .pink, .white {
     margin: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 70%;
 }
 
 .blue{
     background-color: #65dbff;
-    height: auto;
-    margin: 0;
 }
 
 
 .pink{
     background-color: #F2419A;
-    height: auto;
-    justify-content: space-around;
-
 }
 
 .brown{
     background-color: #F4DFB6;
-    height: auto;
-    justify-content: space-around;
 
 }
 
 .white{
     background-color: white;
-    height: auto;
-    justify-content: space-around;
 
 }
-
-/* .blue-images{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 5% 0 5% 0;
-
-}
-
-.pink-images-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 5% 0 5% 0;
-}
-
-.pink-images-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 5% 0 5% 0;
-
-} */
-
 
 .placeholder{
     height: 100%;

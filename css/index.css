@@ -8,13 +8,6 @@ body{
     src: url("fonts/ballmerarchityperegular-webfont.woff") format("woff");
 }
 
-.pink-border{
-    border-style: solid;
-    border-color: #F2419A;
-    border-width: 20px;
-    
-}
-
 .brown{
     background-color: #F4DFB6;
     height: 100%;
@@ -88,6 +81,8 @@ ul {
 
 }
 
+
+
 .about-us-p{
     font-family: "Montserrat", sans-serif;
     width: 40%;
@@ -102,10 +97,11 @@ ul {
 
 .class-picture{
     position: absolute;
-    right: 15%;
+    right: 8%;
     padding: 10% 0 0 0;
     rotate: 10deg;
-
+    height: 40%;
+    width: 40%;
 }
 
 .featured-articles-img{
@@ -131,16 +127,13 @@ ul {
 }
 
 
-.article-title{
+.article-title, .bylines{
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     text-align: center;
-
+    color: black;
 }
 
-.bylines{
-    margin: 0;
-    text-align: center;
-}
 
 body{
     margin: 0;
@@ -157,18 +150,22 @@ body{
     margin: 0;
 }
 
-.button{
-    background-color: #F2419A; /* Green */
+
+.button-div{
     border: none;
-    padding: 12px 64px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 45% 10% 45%;
+    justify-content: center;
+    display: grid;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 30%;
-
+    grid-template-columns: 20%;
+    padding-bottom: 5%;
 }
+
+.button{
+    background-color: #F2419A;
+    border-radius: 20%;
+}
+
 .button-text{
     font-size: 22px;
     color: black;
@@ -177,8 +174,7 @@ body{
 }
   
 .button:hover {
-    background-color: #F4DFB6;
-    color: white;
+    color: #F4DFB6;
 }
 
 .white{
